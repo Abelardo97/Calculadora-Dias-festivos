@@ -64,9 +64,9 @@ btn_calcu.addEventListener("click", () => {
 
         //Comparación de si el día es o no laborable
     if (dia_sem == 0 || dia_sem == 6) {
-        mensaje += ", no es un buen día para ir a trabajar";
+        mensaje += ", no es un día para ir a trabajar";
     } else {
-        mensaje += ", es buen día para ir a trabajar";
+        mensaje += ", es un día para ir a trabajar";
     }
 
     // Imprimiendo el mensaje
