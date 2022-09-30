@@ -40,33 +40,33 @@ btn_calcu.addEventListener("click", () => {
     
     switch (dia_sem) {
         case 0:
-            mensaje = "El día de hoy es Domingo";
+            mensaje = "Domingo";
             break;
         case 1:
-            mensaje = "El día de hoy es Lunes";
+            mensaje = "Lunes";
             break;
         case 2:
-            mensaje = "El día de hoy es Martes";
+            mensaje = "Martes";
             break;
         case 3:
-            mensaje = "El día de hoy es Miércoles";
+            mensaje = "Miércoles";
             break;
         case 4:
-            mensaje = "El día de hoy es Jueves";
+            mensaje = "Jueves";
             break;
         case 5:
-            mensaje = "El día de hoy es Viernes";
+            mensaje = "Viernes";
             break;
         case 6:
-            mensaje = "El día de hoy es Sábado";
+            mensaje = "Sábado";
             break;
     }
 
         //Comparación de si el día es o no laborable
     if (dia_sem == 0 || dia_sem == 6) {
-        mensaje += " y no es un buen día para ir a trabajar";
+        mensaje += ", no es un buen día para ir a trabajar";
     } else {
-        mensaje += " y es buen día para ir a trabajar";
+        mensaje += ", es buen día para ir a trabajar";
     }
 
     // Imprimiendo el mensaje
